@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci-workflow:
-    uses: ./.github/workflows/ci_workflow.yaml
+    uses: ./.github/workflows/ci_workflow.yml
   release:
     name: Generate new release
     needs: [ci-workflow]
